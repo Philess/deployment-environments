@@ -7,6 +7,7 @@ The sample Catalog consists of a few catalog items (ARM Template + associated ma
 - [Function App](FunctionApp): Deploys an Azure Function App, Storage Account, and Application Insights
 - [Sandbox](Sandbox): Deploys an empty "sandbox" environment
 - [Web App](WebApp): Deploys an Azure Web App without a data store
+- [WebApp-with-SQL](WebApp-with-SQL): Deploys an Azure Web App with an Azure SQL Database
 - [App-Service-with-Cosmos_AZD-template](App-Service-with-Cosmos_AZD-template): AZD-compatible template deploying an Azure App Service and Cosmos database
 - [Container-App-with-Cosmos_AZD-template](Container-App-with-Cosmos_AZD-template): AZD-compatible template deploying an Azure Container App and Cosmos database
 - [Function-App-with-Cosmos_AZD-template](Function-App-with-Cosmos_AZD-template): AZD-compatible template deploying a Function App and Cosmos database
