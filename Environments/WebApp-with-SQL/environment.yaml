@@ -2,7 +2,7 @@
 name: WebApp-with-SQL
 version: 1.0.0
 summary: Azure Web App Environment with SQL Database Environment
-description: Deploys an Azure Web App without a data store
+description: Deploys an Azure Web App with a SQL Database
 runner: ARM
 templatePath: azuredeploy.json
 
