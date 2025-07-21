@@ -5,22 +5,19 @@ summary: Azure Web App with SQL Database Environment
 description: Deploys an Azure Web App with an Azure SQL Database
 runner: ARM
 templatePath: azuredeploy.json
-
 parameters:
   - id: name
     name: Name
     description: 'Name of the Web App.'
     type: string
     required: true
-
   - id: sqlAdminLogin
-    name: SQL Admin Login
+    name: "SQL Admin Login"
     description: 'The administrator username for the SQL Server.'
     type: string
     required: true
-
   - id: sqlAdminPassword
-    name: SQL Admin Password
+    name: "SQL Admin Password"
     description: 'The administrator password for the SQL Server.'
     type: string
     required: true
